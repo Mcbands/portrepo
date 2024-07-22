@@ -1,0 +1,282 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+            <section class="slick-slideshow">   
+                <div class="slick-custom">
+                    <img src="{% static 'images/slideshow/medium-shot-business-women-high-five.jpg' %}" class="img-fluid" alt="">
+
+                    <div class="slick-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-10">
+                                    <h1 class="slick-title">Web Developer</h1>
+
+                                    <p class="lead text-white mt-lg-3 mb-lg-5">Building the Future of the Web</p>
+
+                                    <a href=" {% url 'products' %}" class="btn custom-btn">Explore My Work</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slick-custom">
+                    <img src="{% static 'images/slideshow/team-meeting-renewable-energy-project.jpg' %}" class="img-fluid" alt="">
+
+                    <div class="slick-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-10">
+                                    <h1 class="slick-title">Graphic Designer</h1>
+
+                                    <p class="lead text-white mt-lg-3 mb-lg-5">Bringing Ideas to Life.</p>
+
+                                    <a href=" {% url 'products' %}" class="btn custom-btn">Explore My Work</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slick-custom">
+                    <img src="{% static 'images/slideshow/slide-3.jpg' %}" class="img-fluid" alt="">
+
+                    <div class="slick-bottom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-10">
+                                    <h1 class="slick-title">IT Specialist</h1>
+
+                                    <p class="lead text-white mt-lg-3 mb-lg-5">Empowering Technology Solutions.</p>
+
+                                    <a href=" {% url 'products' %}" class="btn custom-btn">Explore My Work</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="about section-padding">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12 text-center">
+                            <h2 class="mb-5">What I<span> do</span></h2>
+                        </div>
+
+                        <div class="col-lg-2 col-12 mt-auto mb-auto">
+                            <ul class="nav nav-pills mb-5 mx-auto justify-content-center align-items-center" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">1. Web Dev</button>
+                                </li>
+
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-youtube-tab" data-bs-toggle="pill" data-bs-target="#pills-youtube" type="button" role="tab" aria-controls="pills-youtube" aria-selected="true">2. GD</button>
+                                </li>
+
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-skill-tab" data-bs-toggle="pill" data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill" aria-selected="false">3. IT</button>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-10 col-12">
+                            <div class="tab-content mt-2" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <img src="{% static 'images/pim-chu-z6NZ76_UTDI-unsplash.jpeg' %}" class="img-fluid" alt="">
+                                        </div>
+
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">Full Stack<br>Web <span>Development</span> </h4>
+
+                                                <p>I Specialize in creating responsive, user-friendly websites that not only look great but also perform
+                                                    exceptionally well, using Django framework for python programming language.<br> <br>
+                                                    
+                                                    My goal is to provide you with a seamless, scalable, and secure website that can grow with your business.
+                                                    
+                                                    <br><br>I ensure that your website is built to modern standards
+                                                    , because my approach to web developement is client-centric, focusing on understanding your unique business needs and translating them into digital presence that drives results.</p>
+
+                                                
+
+                                                <div class="mt-2 mt-lg-auto">
+                                                    <a href="about" class="custom-link mb-2">
+                                                        Learn more about me
+                                                        <i class="bi-arrow-right ms-2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                              
+                              
+                                <div class="tab-pane fade" id="pills-youtube" role="tabpanel" aria-labelledby="pills-youtube-tab">
+
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <div class="ratio ratio-16x9">
+                                                <img src="{% static 'images/cody-lannom-G95AReIh_Ko-unsplash.jpeg' %}" class="img-fluid" alt="">
+
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">Professional<br>Graphic<span>Designer</span> </h4>
+
+                                                <p>As a Graphic Designer, I specialize in crafting visually compelling and innovative designs that captivate and engage audiences. My expertise spans a diverse range of design disciplines, including branding, web design, and print media. With a keen eye for detail and a passion for aesthetics, I create visually stunning and effective designs that elevate brand identity and communication.
+                                                    
+                                                    <br><br>My goal is to bring your vision to life through design that not only looks striking but also resonates with your target audience. By combining creativity with strategic thinking, I ensure that every project I undertake enhances your brand's presence and achieves your business objectives.
+                                                
+                                                    <br><br>
+
+                                                    I am committed to delivering high-quality design solutions that meet modern standards and reflect your unique brand personality, while maintaining a client-centric approach to ensure your needs and expectations are at the forefront of my design process.
+                                                <div class="mt-2 mt-lg-auto">
+                                                    <a href="about" class="custom-link mb-2">
+                                                        Learn more about me
+                                                        <i class="bi-arrow-right ms-2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab">
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12">
+                                            <img src="{% static 'images/cody-lannom-G95AReIh_Ko-unsplash.jpeg' %}" class="img-fluid" alt="">
+                                        </div>
+
+                                        <div class="col-lg-5 col-12">
+                                            <div class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
+                                                <h4 class="mb-3">What can help you?</h4>
+
+                                                <p>As an IT Specialist, I provide comprehensive technology solutions designed to enhance operational efficiency and security for businesses of all sizes. My expertise encompasses a wide range of IT services, including system administration, network management, cybersecurity, and tech support.<br><br>
+
+                                                    My goal is to ensure that your technology infrastructure is robust, secure, and tailored to meet the unique demands of your business. By leveraging the latest advancements and best practices in IT, I deliver solutions that are both scalable and reliable, enabling your business to stay ahead in a rapidly evolving digital landscape.<br><br>
+                                                    
+                                                    I am dedicated to understanding your specific IT needs and challenges, offering proactive and responsive support to keep your systems running smoothly. With a focus on minimizing downtime and maximizing productivity, I work to provide seamless IT services that align with your business goals and ensure your technology investments deliver maximum value.</p>
+
+                                                {% comment %} <div class="skill-thumb mt-3">
+
+                                                    <strong>Branding</strong>
+                                                        <span class="float-end">90%</span>
+                                                            <div class="progress">
+                                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                                                            </div>
+
+                                                    <strong>Design & Stragety</strong>
+                                                        <span class="float-end">70%</span>
+                                                            <div class="progress">
+                                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+                                                            </div>
+
+                                                    <strong>Online Platform</strong>
+                                                        <span class="float-end">80%</span>
+                                                            <div class="progress">
+                                                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                                                            </div>
+
+                                                </div> {% endcomment %}
+                                                
+                                                <div class="mt-2 mt-lg-auto">
+                                                    <a href="about" class="custom-link mb-2">
+                                                        Learn more about me
+                                                        <i class="bi-arrow-right ms-2"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="front-product">
+                <div class="container-fluid p-0">
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6 col-12">
+                            <img src="{% static 'images/retail-shop-owner-mask-social-distancing-shopping.jpg' %}" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                            <div class="px-5 py-5 py-lg-0">
+                                
+                                <h2 class="mb-4"><span>Full Stack</span> Developer</h2>
+
+                                <p class="lead mb-4"><b>I believe in the power of design to communicate, inspire, and drive action. Let's collaborate and turn your vision into reality.</b></p>
+
+                                <a href="{% url 'about' %}" class="custom-link">
+                                    more about me
+                                    <i class="bi-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="featured-product section-padding">
+                <div class="container">
+                    <div class="row">
+                        
+                    
+                        <div class="col-12 text-center">
+                            <h2 class="mb-5">Featured Projects</h2>
+                        </div>
+                        
+                        {% for post in featured_graphics %}
+                        <div class="col-lg-4 col-12 mb-3">
+                            <div class="product-thumb">
+                                <a href="{% url 'post_by_slug' post.slug %}">
+                                    <img src="{{ post.image.url }}" class="img-fluid product-image" alt="portfolio-image">
+                                </a>
+                        
+                                <div class="product-top d-flex">
+                                    <span class="product-alert me-auto">{{ post.name }}</span>
+                                    <a href="{% url 'post_by_slug' post.slug %}" class="bi-heart-fill product-icon"></a>
+                                </div>
+                        
+                                <div class="product-info d-flex">
+                                    <div>
+                                        <h5 class="product-title mb-0">
+                                            <a href="{% url 'post_by_slug' post.slug %}" class="product-title-link">{{ post.name }}</a>
+                                        </h5>
+                                        <p class="product-p">{{ post.description | truncatewords_html:10 }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% empty %}
+                        <p>No featured products available at the moment.</p>
+                        {% endfor %}
+                        
+
+                        <div class="col-12 text-center">
+                            <a href="{% url 'products' %}" class="view-all">View All Projects</a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        {% endblock %}

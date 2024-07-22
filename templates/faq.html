@@ -1,0 +1,220 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<header class="site-header section-padding d-flex justify-content-center align-items-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-12">
+                <h1>
+                    <span class="d-block text-primary">Your favorite questions</span>
+                    <span class="d-block text-dark">and my answers to them</span>
+                </h1>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="faq section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-12">
+                <h2>General Info.</h2>
+
+                <div class="accordion" id="accordionGeneral">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordionGeneralOne" aria-expanded="true" aria-controls="accordionGeneralOne">
+                            What services do you offer?
+                            </button>
+                        </h2>
+                        <div id="accordionGeneralOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionGeneral">
+                            <div class="accordion-body">
+                                <p class="large-paragraph">I offer a range of services including <strong>web development</strong>, <strong>graphic design</strong>, and <strong>IT solutions</strong>. Whether you need a custom website, branding materials, or tech support, I can provide the solutions you need to grow your business.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordionGeneralTwo" aria-expanded="false" aria-controls="accordionGeneralTwo">
+                            How do you approach a new project?
+                            </button>
+                        </h2>
+                        <div id="accordionGeneralTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionGeneral">
+                            <div class="accordion-body">
+                                <p class="large-paragraph">I begin by understanding your goals and requirements through a detailed consultation. I then create a project plan, including timelines and milestones, to ensure that we stay on track and deliver results that exceed your expectations.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordionGeneralThree" aria-expanded="false" aria-controls="accordionGeneralThree">
+                            What technologies do you use for web development?
+                            </button>
+                        </h2>
+                        <div id="accordionGeneralThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionGeneral">
+                            <div class="accordion-body">
+                                <p class="large-paragraph">I use a range of modern technologies including HTML, CSS, JavaScript, and popular frameworks like React and Angular for frontend development. For backend development, I work with Node.js, Python, and PHP, along with databases such as MySQL and MongoDB.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordionGeneralFour" aria-expanded="false" aria-controls="accordionGeneralFour">
+                            Can you help with branding and logo design?
+                            </button>
+                        </h2>
+                        <div id="accordionGeneralFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionGeneral">
+                            <div class="accordion-body">
+                                <p class="large-paragraph">Yes, I offer comprehensive branding services including logo design, brand strategy, and marketing materials. I work closely with you to create a brand identity that reflects your vision and appeals to your target audience.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordionGeneralFive" aria-expanded="false" aria-controls="accordionGeneralFive">
+                            How do you ensure the security of the websites you develop?
+                            </button>
+                        </h2>
+                        <div id="accordionGeneralFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionGeneral">
+                            <div class="accordion-body">
+                                <p class="large-paragraph">I prioritize security by implementing best practices such as HTTPS, regular security updates, and secure coding techniques. I also perform security audits and offer ongoing maintenance to protect your website from potential threats.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordionGeneralSix" aria-expanded="false" aria-controls="accordionGeneralSix">
+                            What kind of IT support do you provide?
+                            </button>
+                        </h2>
+                        <div id="accordionGeneralSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionGeneral">
+                            <div class="accordion-body">
+                                <p class="large-paragraph">I offer IT support services including troubleshooting technical issues, system maintenance, and software installation. My goal is to ensure that your IT infrastructure runs smoothly and efficiently.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+  
+<h2 class="mt-5">Open for <span> Work</span></h2>
+
+<div class="accordion" id="accordionProduct">
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordionProductOne" aria-expanded="true" aria-controls="accordionProductOne">
+            Are you available for full-time or part-time work?
+            </button>
+        </h2>
+        <div id="accordionProductOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionProduct">
+            <div class="accordion-body">
+                <p class="large-paragraph">I am open to both full-time and part-time opportunities. I am flexible with working hours and can adjust my schedule based on the needs of the project. Feel free to reach out to discuss the specifics of your requirements.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordionProductTwo" aria-expanded="false" aria-controls="accordionProductTwo">
+            Do you accept contract-based work?
+            </button>
+        </h2>
+        <div id="accordionProductTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionProduct">
+            <div class="accordion-body">
+                <p class="large-paragraph">Yes, I am open to contract-based work. I am experienced in handling both short-term and long-term contracts and am happy to discuss the details of your project to ensure it meets your needs and goals.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordionProductThree" aria-expanded="false" aria-controls="accordionProductThree">
+            What is your preferred method of communication for new projects?
+            </button>
+        </h2>
+        <div id="accordionProductThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionProduct">
+            <div class="accordion-body">
+                <p class="large-paragraph">I prefer to communicate via email for initial inquiries and project details. For ongoing discussions, I am open to using various tools such as Slack, Microsoft Teams, or Zoom based on your preference.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordionProductFour" aria-expanded="false" aria-controls="accordionProductFour">
+            How do you determine project rates?
+            </button>
+        </h2>
+        <div id="accordionProductFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionProduct">
+            <div class="accordion-body">
+                <p class="large-paragraph">Project rates are determined based on the scope of work, complexity, and duration of the project. I offer competitive rates and am happy to provide a detailed quote after discussing the project requirements with you.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordionProductFive" aria-expanded="false" aria-controls="accordionProductFive">
+            Do you provide a contract for your services?
+            </button>
+        </h2>
+        <div id="accordionProductFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionProduct">
+            <div class="accordion-body">
+                <p class="large-paragraph">Yes, I provide a formal contract for all projects. The contract outlines the scope of work, timelines, payment terms, and other important details to ensure both parties are clear on the project expectations and deliverables.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordionProductSix" aria-expanded="false" aria-controls="accordionProductSix">
+            Can you provide references or examples of past work?
+            </button>
+        </h2>
+        <div id="accordionProductSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionProduct">
+            <div class="accordion-body">
+                <p class="large-paragraph">Yes, I can provide references and examples of past work. I am happy to share case studies, client testimonials, and portfolio samples to demonstrate my skills and experience.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSeven">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordionProductSeven" aria-expanded="false" aria-controls="accordionProductSeven">
+            What is your process for onboarding new clients?
+            </button>
+        </h2>
+        <div id="accordionProductSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionProduct">
+            <div class="accordion-body">
+                <p class="large-paragraph">My onboarding process includes an initial consultation to understand your needs, followed by a proposal with detailed project plans and deliverables. Once we agree on the terms, we kick off the project with regular updates and reviews to ensure success.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingEight">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordionProductEight" aria-expanded="false" aria-controls="accordionProductEight">
+            How do you handle feedback and revisions during a project?
+            </button>
+        </h2>
+        <div id="accordionProductEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionProduct">
+            <div class="accordion-body">
+                <p class="large-paragraph">I welcome feedback and revisions as part of the project process. I build time for revisions into the project timeline and work closely with you to ensure that the final deliverable meets your expectations.</p>
+            </div>
+        </div>
+    </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+{% endblock %}
